@@ -1,0 +1,33 @@
+
+#nav-list li {
+	border: 2px solid black;
+	margin-bottom: 1.7px;
+}
+
+#nav-list {
+  	margin-top: 2.3px;  /* counteracting bootstrap's default margin here */
+  	margin-bottom: -0.5px; /* counteracting bootstrap's default margin again */
+}
+
+#nav-list a {
+  	color: #951C49;
+  	background-color: orange;
+}
+
+#nav-list a:hover {
+  	background: yellow;
+}
+
+#nav-list a p {
+  	font-size: 1.7em;
+  	padding-top: 7px;
+}
+
+#tall-grid-section-for-menu-info {
+	background: green;	
+}
+
+#menu-info {	
+	margin: 12px;
+	height: 1000px;
+}
