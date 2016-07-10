@@ -31,3 +31,7 @@
 	margin: 12px;
 	height: 1000px;
 }
+
+.menu-heading {  
+	font-size: 1.3em; /*Increase font-size for the menu-headings somewhat */
+}
