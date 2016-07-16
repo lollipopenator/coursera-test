@@ -45,9 +45,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // 'speak' method.
 // See Lecture 50, part 1
 
-// for (var i = 0; i < names.length; i++) {
-//   console.log("Hello " + names[i]);
-// }
+
 for (var i=0; i<names.length; i++) {
 
   // STEP 11:
@@ -66,7 +64,7 @@ for (var i=0; i<names.length; i++) {
   // name in the loop.
 
 
-  if ( firstLetter === 'j') {
+  if (firstLetter === 'j') {
     window.byeSpeaker.speak(names[i])
   } else {
     window.helloSpeaker.speak(names[i])
